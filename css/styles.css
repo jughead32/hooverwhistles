@@ -1,20 +1,87 @@
-  /* global styles  */
-  /* color pallete https://colorhunt.co/palette/167908 */
+/* global styles  */
+/* color pallete https://colorhunt.co/palette/167908 */
 body {
-    font-family: 'Raleway'; 
-    line-height: 1.5;
+	font-family: "Raleway";
+	line-height: 1.5;
+	background-color: #52de97;
 }
 
 h6 {
-    font-weight: bold;
+	font-weight: bold;
+	margin: 15px;
 }
-
-
-
+nav {
+	background-color: #52de97;
+}
+footer {
+	text-align: center;
+	margin: auto;
+}
+footer li {
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+	margin: auto;
+}
 
 /* class styles */
 .product {
-    width: 25%;
-    height: 75%;
-    margin: auto;
+	width: 15em;
+	height: 30em;
+	margin-top: 15px;
+}
+.container-fluid {
+	padding: 3% 15%;
+	background: #c0ffb3;
+}
+.note {
+	margin: 1em;
+}
+.nav-item {
+	text-align: right;
+}
+.navbar-brand {
+	margin-left: 2rem;
+	padding: 1rem;
+}
+.comment {
+	margin: 15px 10px;
+	padding: 0 5px;
+}
+.comment p {
+	font-style: italic;
+	line-height: 1.75;
+	border: 1px solid #c0ffb3;
+	border-radius: 5px;
+	padding: 1rem;
+}
+#mail {
+	color: #ffba5a;
+	font-weight: bold;
+}
+#mail:hover {
+	color: black;
+}
+
+.footer-link {
+	color: #c0ffb3;
+	font-weight: bold;
+}
+.footer-link:hover {
+	color: black;
+}
+.copy {
+	font-size: 0.5em;
+	color: white;
+}
+.hoover-contact {
+	color: #c0ffb3;
+	font-size: 1rem;
+}
+.soundfile {
+	color: #ffba5a;
+	font-weight: bold;
+}
+.soundfile :hover {
+	color: black;
 }
