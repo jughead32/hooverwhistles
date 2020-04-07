@@ -1,13 +1,19 @@
-    body{
-        background-color: green;
-    }
-    img {
-        height: 75%;
-        width: 50%;
-        margin: auto;
-    }
-    p {
-        margin: auto;
-        line-height: 1.5;
-        font-family: 'Raleway';
-    }
+  /* global styles  */
+body {
+    font-family: 'Raleway'; 
+    line-height: 1.5;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+
+
+
+/* class styles */
+.product {
+    width: 25%;
+    height: 75%
+    margin: auto;
+}
