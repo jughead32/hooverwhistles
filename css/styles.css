@@ -4,6 +4,7 @@ body {
 	font-family: "Raleway";
 	line-height: 1.5;
 	background-color: #52de97;
+	text-align: center;
 }
 
 h6 {
@@ -30,6 +31,9 @@ footer li {
 	height: 30em;
 	margin-top: 15px;
 }
+.intro {
+	text-align: left;
+}
 .container-fluid {
 	padding: 3% 15%;
 	background: #c0ffb3;
@@ -44,17 +48,7 @@ footer li {
 	margin-left: 2rem;
 	padding: 1rem;
 }
-.comment {
-	margin: 15px 10px;
-	padding: 0 5px;
-}
-.comment p {
-	font-style: italic;
-	line-height: 1.75;
-	border: 1px solid #c0ffb3;
-	border-radius: 5px;
-	padding: 1rem;
-}
+
 #mail {
 	color: #ffba5a;
 	font-weight: bold;
@@ -64,8 +58,8 @@ footer li {
 }
 
 .footer-link {
-	color: #c0ffb3;
 	font-weight: bold;
+	color: #c0ffb3;
 }
 .footer-link:hover {
 	color: black;
@@ -84,4 +78,17 @@ footer li {
 }
 .soundfile :hover {
 	color: black;
+}
+#testimonies {
+	text-align: center;
+}
+.carousel-item {
+	padding: 4% 15%;
+}
+.testimonial-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+#bottom {
+	padding: 7% 15%;
 }
